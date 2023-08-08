@@ -1,0 +1,7 @@
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.csproj.AssemblyReference.cache
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.AssemblyInfoInputs.cache
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.AssemblyInfo.cs
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.csproj.CoreCompileInputs.cache
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicatet.API\obj\Debug\net6.0\ETicatet.API.MvcApplicationPartsAssemblyInfo.cache

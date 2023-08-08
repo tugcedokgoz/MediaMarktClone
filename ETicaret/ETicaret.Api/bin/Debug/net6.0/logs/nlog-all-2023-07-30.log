@@ -1,0 +1,76 @@
+2023-07-30 13:12:30.7100||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7024 
+2023-07-30 13:12:30.7757||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5111 
+2023-07-30 13:12:30.7757||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-07-30 13:12:30.7757||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-07-30 13:12:30.7757||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicaret.Api\ 
+2023-07-30 13:12:30.8579||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/index.html - - 
+2023-07-30 13:12:31.1072||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/index.html - - - 200 - text/html;charset=utf-8 251.9353ms 
+2023-07-30 13:12:31.1223||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - 
+2023-07-30 13:12:31.1223||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 3.3306ms 
+2023-07-30 13:12:31.3547||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_vs/browserLink - - 
+2023-07-30 13:12:31.3741||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3408ms 
+2023-07-30 13:12:31.9911||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - 
+2023-07-30 13:12:32.0965||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.4506ms 
+2023-07-30 13:14:40.4611||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7024 
+2023-07-30 13:14:40.5211||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5111 
+2023-07-30 13:14:40.5254||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-07-30 13:14:40.5254||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-07-30 13:14:40.5254||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicaret.Api\ 
+2023-07-30 13:14:41.4711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/index.html - - 
+2023-07-30 13:14:41.8732||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - 
+2023-07-30 13:14:41.8732||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/index.html - - - 200 - text/html;charset=utf-8 413.4702ms 
+2023-07-30 13:14:41.8814||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 9.3672ms 
+2023-07-30 13:14:42.1046||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_vs/browserLink - - 
+2023-07-30 13:14:42.1465||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.8825ms 
+2023-07-30 13:14:42.6249||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - 
+2023-07-30 13:14:42.9443||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 319.4041ms 
+2023-07-30 13:14:46.0413||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/api/Kategori/TumKategoriler - - 
+2023-07-30 13:14:46.0413||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ETicaret.Api.Controllers.KategoriController.TumKategoriler (ETicaret.Api)' 
+2023-07-30 13:14:46.0719||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumKategoriler", controller = "Kategori"}. Executing controller action with signature System.Object TumKategoriler() on controller ETicaret.Api.Controllers.KategoriController (ETicaret.Api). 
+2023-07-30 13:14:47.6448||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Urun'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-07-30 13:14:49.0235||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad], [t].[Aktif], [t].[Foto], [t].[Sira], [t].[UstKategoriId]
+FROM [tblKategori] AS [t] 
+2023-07-30 13:14:49.0946||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ETicaret.Model.Kategori, ETicaret.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-07-30 13:14:49.1152||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ETicaret.Api.Controllers.KategoriController.TumKategoriler (ETicaret.Api) in 3036.767ms 
+2023-07-30 13:14:49.1152||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ETicaret.Api.Controllers.KategoriController.TumKategoriler (ETicaret.Api)' 
+2023-07-30 13:14:49.1450||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/api/Kategori/TumKategoriler - - - 200 - application/json;+charset=utf-8 3103.7588ms 
+2023-07-30 21:08:40.8691||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7024 
+2023-07-30 21:08:40.9660||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5111 
+2023-07-30 21:08:40.9660||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-07-30 21:08:40.9855||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-07-30 21:08:40.9855||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicaret.Api\ 
+2023-07-30 21:08:42.3251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/index.html - - 
+2023-07-30 21:08:43.2956||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - 
+2023-07-30 21:08:43.3116||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 15.2633ms 
+2023-07-30 21:08:43.3116||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/index.html - - - 200 - text/html;charset=utf-8 997.1362ms 
+2023-07-30 21:08:43.8107||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_vs/browserLink - - 
+2023-07-30 21:08:44.0496||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 238.8190ms 
+2023-07-30 21:08:44.6436||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - 
+2023-07-30 21:08:44.9751||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 331.4408ms 
+2023-07-30 21:24:35.0458||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7024 
+2023-07-30 21:24:35.1074||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5111 
+2023-07-30 21:24:35.1074||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-07-30 21:24:35.1074||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-07-30 21:24:35.1074||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\tugcedokgoz\Desktop\ETicaret\ETicaret\ETicaret.Api\ 
+2023-07-30 21:24:36.3750||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/index.html - - 
+2023-07-30 21:24:37.0745||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/index.html - - - 200 - text/html;charset=utf-8 706.4256ms 
+2023-07-30 21:24:37.0920||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - 
+2023-07-30 21:24:37.1268||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 34.7607ms 
+2023-07-30 21:24:37.4214||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/_vs/browserLink - - 
+2023-07-30 21:24:37.5000||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.6352ms 
+2023-07-30 21:24:38.3244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - 
+2023-07-30 21:24:38.5474||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.9793ms 
+2023-07-30 21:24:59.0399||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7024/api/Urun/api/3 - - 
+2023-07-30 21:24:59.0399||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ETicaret.Api.Controllers.UrunController.Urunler (ETicaret.Api)' 
+2023-07-30 21:24:59.1007||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Urunler", controller = "Urun"}. Executing controller action with signature System.Object Urunler(Int32) on controller ETicaret.Api.Controllers.UrunController (ETicaret.Api). 
+2023-07-30 21:25:00.7057||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Urun'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-07-30 21:25:02.6670||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (103ms) [Parameters=[@__kategoriId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Aciklama], [t].[Ad], [t].[Adet], [t].[Fiyat]
+FROM [tblUrun] AS [t]
+INNER JOIN [tblUrunKategori] AS [t0] ON [t].[Id] = [t0].[UrunId]
+WHERE [t0].[KategoriId] = @__kategoriId_0 
+2023-07-30 21:25:02.7462||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[ETicaret.Model.Urun, ETicaret.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-07-30 21:25:02.7682||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ETicaret.Api.Controllers.UrunController.Urunler (ETicaret.Api) in 3659.7759ms 
+2023-07-30 21:25:02.7682||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ETicaret.Api.Controllers.UrunController.Urunler (ETicaret.Api)' 
+2023-07-30 21:25:02.7959||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7024/api/Urun/api/3 - - - 200 - application/json;+charset=utf-8 3755.9461ms 

@@ -1,0 +1,44 @@
+2023-07-30 13:12:30.1081 Info Message Template Auto Format enabled
+2023-07-30 13:12:30.1591 Info Loading assembly name: NLog.Extensions.Logging
+2023-07-30 13:12:30.1654 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.373. Product version: 5.3.2+d47e232ba867eedbff8f7972047a17715b8c1c2f. GlobalAssemblyCache: False
+2023-07-30 13:12:30.1654 Info Loading assembly name: NLog.Web.AspNetCore
+2023-07-30 13:12:30.2820 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.901. Product version: 5.3.2+52209e61e2c77e57a65c8ae211e0c56927f761b5. GlobalAssemblyCache: False
+2023-07-30 13:12:30.3309 Info Registered target NLog.Targets.ConsoleTarget(Name=consolelog)
+2023-07-30 13:12:30.3343 Info Registered target NLog.Targets.FileTarget(Name=filelog)
+2023-07-30 13:12:30.3553 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 13:12:30.4477 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 13:13:28.4792 Info Message Template Auto Format enabled
+2023-07-30 13:13:28.5491 Info Loading assembly name: NLog.Extensions.Logging
+2023-07-30 13:13:28.5660 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.373. Product version: 5.3.2+d47e232ba867eedbff8f7972047a17715b8c1c2f. GlobalAssemblyCache: False
+2023-07-30 13:13:28.5758 Info Loading assembly name: NLog.Web.AspNetCore
+2023-07-30 13:13:28.5758 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.901. Product version: 5.3.2+52209e61e2c77e57a65c8ae211e0c56927f761b5. GlobalAssemblyCache: False
+2023-07-30 13:13:28.6620 Info Registered target NLog.Targets.ConsoleTarget(Name=consolelog)
+2023-07-30 13:13:28.6620 Info Registered target NLog.Targets.FileTarget(Name=filelog)
+2023-07-30 13:13:28.7181 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 13:14:31.0590 Info Message Template Auto Format enabled
+2023-07-30 13:14:31.1333 Info Loading assembly name: NLog.Extensions.Logging
+2023-07-30 13:14:31.1480 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.373. Product version: 5.3.2+d47e232ba867eedbff8f7972047a17715b8c1c2f. GlobalAssemblyCache: False
+2023-07-30 13:14:31.1480 Info Loading assembly name: NLog.Web.AspNetCore
+2023-07-30 13:14:31.1640 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.901. Product version: 5.3.2+52209e61e2c77e57a65c8ae211e0c56927f761b5. GlobalAssemblyCache: False
+2023-07-30 13:14:31.2438 Info Registered target NLog.Targets.ConsoleTarget(Name=consolelog)
+2023-07-30 13:14:31.2624 Info Registered target NLog.Targets.FileTarget(Name=filelog)
+2023-07-30 13:14:31.3024 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 13:14:37.3703 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 21:08:36.8534 Info Message Template Auto Format enabled
+2023-07-30 21:08:37.0052 Info Loading assembly name: NLog.Extensions.Logging
+2023-07-30 21:08:37.0535 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.373. Product version: 5.3.2+d47e232ba867eedbff8f7972047a17715b8c1c2f. GlobalAssemblyCache: False
+2023-07-30 21:08:37.0698 Info Loading assembly name: NLog.Web.AspNetCore
+2023-07-30 21:08:37.2832 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.901. Product version: 5.3.2+52209e61e2c77e57a65c8ae211e0c56927f761b5. GlobalAssemblyCache: False
+2023-07-30 21:08:37.5384 Info Registered target NLog.Targets.ConsoleTarget(Name=consolelog)
+2023-07-30 21:08:37.5452 Info Registered target NLog.Targets.FileTarget(Name=filelog)
+2023-07-30 21:08:37.6023 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 21:08:38.6531 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 21:24:33.9243 Info Message Template Auto Format enabled
+2023-07-30 21:24:34.0477 Info Loading assembly name: NLog.Extensions.Logging
+2023-07-30 21:24:34.0858 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.373. Product version: 5.3.2+d47e232ba867eedbff8f7972047a17715b8c1c2f. GlobalAssemblyCache: False
+2023-07-30 21:24:34.1019 Info Loading assembly name: NLog.Web.AspNetCore
+2023-07-30 21:24:34.1019 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.901. Product version: 5.3.2+52209e61e2c77e57a65c8ae211e0c56927f761b5. GlobalAssemblyCache: False
+2023-07-30 21:24:34.2192 Info Registered target NLog.Targets.ConsoleTarget(Name=consolelog)
+2023-07-30 21:24:34.2280 Info Registered target NLog.Targets.FileTarget(Name=filelog)
+2023-07-30 21:24:34.2914 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
+2023-07-30 21:24:34.5395 Info Validating config: TargetNames=filelog, consolelog, ConfigItems=36 ConfigSection=NLog
