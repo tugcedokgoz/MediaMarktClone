@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rsvR+ZsPhIhbmHz8BBnMgflCipkYu3y/nsBXobTtFIM=",
+  "Hash": "VWm/wGnJ72SO9S1HeqIEwTjEc+VlF2Z+rO6nvf2ZrHA=",
   "Source": "ETicaret.Web",
   "BasePath": "_content/ETicaret.Web",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\telesatis.png"
+    },
+    {
+      "Identity": "C:\\Users\\tugcedokgoz\\Desktop\\ETicaret\\ETicaret\\ETicaret.Web\\wwwroot\\js\\Admin\\rol.js",
+      "SourceId": "ETicaret.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tugcedokgoz\\Desktop\\ETicaret\\ETicaret\\ETicaret.Web\\wwwroot\\",
+      "BasePath": "_content/ETicaret.Web",
+      "RelativePath": "js/Admin/rol.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Admin\\rol.js"
     },
     {
       "Identity": "C:\\Users\\tugcedokgoz\\Desktop\\ETicaret\\ETicaret\\ETicaret.Web\\wwwroot\\js\\site.js",

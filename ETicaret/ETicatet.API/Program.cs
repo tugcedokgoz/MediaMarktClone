@@ -81,6 +81,15 @@ else
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+//mvc tarafý için eklendi gelen talepler kabul edilmesi içiin
+
+app.UseCors(
+    options =>
+    {
+        options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    }
+    );
 app.UseAuthentication();
 
 app.MapControllers();

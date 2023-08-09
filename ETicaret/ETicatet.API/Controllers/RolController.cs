@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 
 namespace ETicaret.Api.Controllers
 {
-    [Authorize(Roles ="Admin")]
+   // [Authorize(Roles ="Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class RolController : BaseController
@@ -24,7 +24,7 @@ namespace ETicaret.Api.Controllers
             List<Rol> items = repo.RolRepository.FindAll().ToList<Rol>();
             return new
             {
-                sucess = true,
+                success = true,
                 data = items
             };
         }

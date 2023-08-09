@@ -1,10 +1,9 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 
 <h2>Roller</h2>
 
-
+<div id="divRoller">
+</div>
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rolModal">
     Yeni Rol Ekle
@@ -21,7 +20,7 @@
             <div class="modal-body">
                 <label for="inputRolAd" class="form-label">Rol Adı</label>
                 <input type="text" id="inputRolAd" class="form-control">
-              
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
@@ -30,4 +29,4 @@
         </div>
     </div>
 </div>
-<script src="~/js/admin/rol.js"></script>
+<script src="~/js/admin/rol.js" asp-append-version="true"></script>
